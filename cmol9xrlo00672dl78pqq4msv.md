@@ -5,6 +5,7 @@ seoDescription: "Diagnose fuzzing coverage stalls using Intel Pin. Track basic b
 datePublished: 2026-04-30T09:21:07.839Z
 cuid: cmol9xrlo00672dl78pqq4msv
 slug: using-pin-as-a-coverage-diagnostic-tool-for-fuzzers
+canonical: https://blog.farzon.org/2026/04/using-pin-as-coverage-diagnostic-tool.html
 ogImage: https://cdn.hashnode.com/uploads/og-images/69f30a5b909e64ad078554d7/332b177d-ad9a-4a4d-9d34-356b5b248cf8.png
 tags: code-coverage, fuzzers, pintool
 
