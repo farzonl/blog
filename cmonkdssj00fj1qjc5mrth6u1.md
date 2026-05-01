@@ -5,6 +5,7 @@ seoDescription: "HLSL moves toward a formal, vendor-neutral standard under Ecma 
 datePublished: 2026-05-01T23:49:04.389Z
 cuid: cmonkdssj00fj1qjc5mrth6u1
 slug: standardizing-hlsl-bringing-the-clang-era-to-ecma
+canonical: https://blog.farzon.org/2026/04/standardizing-hlsl-bringing-clang-era.html
 cover: https://cdn.hashnode.com/uploads/covers/69f30a5b909e64ad078554d7/068b9af5-2c5e-4b42-9516-9c432ef01e5e.webp
 ogImage: https://cdn.hashnode.com/uploads/og-images/69f30a5b909e64ad078554d7/f9090e7f-5447-466f-a768-302a635e3905.webp
 tags: vulkan, spir-v, ecma, clang, hlsl, directx, tc-57, llvm-project
