@@ -18,13 +18,12 @@ If you have ever tried to create a multi-panel collage by stitching many images 
 
 To get those buttery-smooth, seamless transitions, we can use a classic computer vision technique: **Laplacian Pyramid Blending**. Below you can see how awesome the results can be.
 
-![Example of Laplacian Blending](https://blogger.googleusercontent.com/img/a/AVvXsEiCwQk3gR91phAJezrsirZbDsZyKr4d_lRak8RiUP0Nk_HBMq1tylW2DkQ4JpZA4GisYZWnaOHKdnknwzRc74HaJzK9A6sbsAAbUwfP68n8-oe2fFp7HzoUidlV2LLW_yVVYR5V9Pq_h_Xx7DupQ0iJl5IuQeKvRLaYI6dduo6WpWYpXFQedQ9iiXJI7W4)
-
 ### Building the Pyramids
 
 To blend two images (let's call them Image A and Image B) without harsh seams, we have to treat the broad strokes (low frequencies, like lighting and color) differently than the fine details (high frequencies, like sharp edges). We do this using "Image Pyramids."
 
-- **The Gaussian Pyramid (REDUCE):** We take our original image and run a Gaussian filter (blur) over it, then downsample it (e.g., shrink an 8x8 image to a 4x4, then 2x2, then 1x1). Each step is a new "level" in our pyramid, representing progressively coarser, lower-frequency data.
+*   **The Gaussian Pyramid (REDUCE):** We take our original image and run a Gaussian filter (blur) over it, then downsample it (e.g., shrink an 8x8 image to a 4x4, then 2x2, then 1x1). Each step is a new "level" in our pyramid, representing progressively coarser, lower-frequency data.
+    
 
 ```python
 # Example: Generating a Gaussian Pyramid
@@ -35,7 +34,8 @@ for i in range(6): # Building 6 levels
     gaussian_pyramid.append(G)
 ```
 
-- **The Laplacian Pyramid (EXPAND):** This isolates the details. We take a smaller, coarser level of the Gaussian pyramid and _expand_ it to match the size of the level below it. Because expanding is basically guessing the pixels in between, it's not perfect. We subtract this expanded image from the actual image at that level to get an "error image." This error image is the **Laplacian.** It basically looks like an edge map containing all the high-frequency details.
+*   **The Laplacian Pyramid (EXPAND):** This isolates the details. We take a smaller, coarser level of the Gaussian pyramid and *expand* it to match the size of the level below it. Because expanding is basically guessing the pixels in between, it's not perfect. We subtract this expanded image from the actual image at that level to get an "error image." This error image is the **Laplacian.** It basically looks like an edge map containing all the high-frequency details.
+    
 
 ```python
 # Example: Generating a Laplacian Pyramid
@@ -50,11 +50,15 @@ for i in range(5, 0, -1):
 
 Suppose you have Image A, Image B, and a Mask (Region R) that tells the computer where the blend should happen. In the process I learned the blending works from coarse to fine:
 
-1. Build the **Laplacian pyramids** for Image A and Image B (L_A and L_B).
-2. Build a **Gaussian pyramid** for your Mask (G_R). Blurring the mask as it gets smaller ensures that the transition zone widens for lower frequencies.
-3. Form a combined Laplacian pyramid (L_O) using the Mask's Gaussian pyramid as weights. The formula at each level looks like this:   
-`L_O(i,j) = G_R(i,j) * L_A(i,j) + (1 - G_R(i,j)) * L_B(i,j)`
-4. Finally, **collapse** the combined pyramid (L_O) by continually expanding and adding the levels back together to get the final blended image.
+1.  Build the **Laplacian pyramids** for Image A and Image B (L\_A and L\_B).
+    
+2.  Build a **Gaussian pyramid** for your Mask (G\_R). Blurring the mask as it gets smaller ensures that the transition zone widens for lower frequencies.
+    
+3.  Form a combined Laplacian pyramid (L\_O) using the Mask's Gaussian pyramid as weights. The formula at each level looks like this:  
+    `L_O(i,j) = G_R(i,j) * L_A(i,j) + (1 - G_R(i,j)) * L_B(i,j)`
+    
+4.  Finally, **collapse** the combined pyramid (L\_O) by continually expanding and adding the levels back together to get the final blended image.
+    
 
 ### The Code Implementation
 
@@ -66,10 +70,10 @@ or checkout the colab directly: [Open In Colab](https://colab.research.google.co
 
 ### Conclusion
 
-By breaking images down into their frequency bands using Gaussian and Laplacian pyramids, we can blend the structural details and the broad lighting separately. The result is a composite image that fools the human eye into seeing  butter smooth transition. Grab the code, create some image masks, and try making your own seamless collages!
+By breaking images down into their frequency bands using Gaussian and Laplacian pyramids, we can blend the structural details and the broad lighting separately. The result is a composite image that fools the human eye into seeing butter smooth transition. Grab the code, create some image masks, and try making your own seamless collages!
 
 * * *
 
 ### Credit Where It's Due: Computational Photography Course At Georgia Tech
 
-I have to mention that a fantastic resource for learning these concepts is  **Georgia Tech’s CS 6475: Computational Photography**  class. I took this course when I was in grad school and it was one of my favorite courses. If you want a deep dive into the math and theory, I highly recommend checking out these [excellent course notes compiled by Monzer Saleh](https://monzersaleh.github.io/GeorgiaTech/CS6475_ComputationalPhotography.html). The theory above leans on the foundational concepts taught in that course.
+I have to mention that a fantastic resource for learning these concepts is **Georgia Tech’s CS 6475: Computational Photography** class. I took this course when I was in grad school and it was one of my favorite courses. If you want a deep dive into the math and theory, I highly recommend checking out these [excellent course notes compiled by Monzer Saleh](https://monzersaleh.github.io/GeorgiaTech/CS6475_ComputationalPhotography.html). The theory above leans on the foundational concepts taught in that course.
