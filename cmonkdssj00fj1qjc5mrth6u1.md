@@ -17,15 +17,14 @@ For a long time, HLSL has lived in a bit of a "trust me, it works" state. It’s
 
 I’m excited to share that I’ve taken on the role of **Vice-Chair for the new Ecma Technical Committee 57 (TC57)**. Our mission? To finally turn HLSL into a formal industry standard.
 
-![The Logo for TC57](https://blogger.googleusercontent.com/img/a/AVvXsEj5Br4Wj-QnDh3kQirn1feCQVBROTdWPPI9Ha7wOJ2LmOgUK4lF7BaV7_HgT4rN8JKiDrX9DmM9GBlwXwGJyc7hsG03HRUqn-Xi_vgym0EVdMr_v-eM3q9384MvNwDCU_9gK8s-lUqGtBASmO0L6RqHxLCpe_Kh_9eJVqMm82y6CILwb1foHJEmH2ZRWas)
 
 ### Why a Standard? Why Now?
 
-The "why" is pretty simple: portability and predictability. We are currently in the **Clang era** of HLSL. [DXC](https://github.com/microsoft/DirectXShaderCompiler)  and [github/hlsl-specs](https://github.com/microsoft/hlsl-specs) was our first dip of our toes into open source. We have the muscle memory now to be able to work in the open and have built great partnerships with hardware vendors, game engine developers, and Vulkan platform contributors. We now know by upstreaming HLSL into Clang/LLVM, we can make the final steps necessary to moving away from proprietary ownership and toward a compiler infrastructure that the entire industry can contribute to and rely on. But a compiler implementation isn't a substitute for a spec thats why C\C++ have ISO. 
+The "why" is pretty simple: portability and predictability. We are currently in the **Clang era** of HLSL. [DXC](https://github.com/microsoft/DirectXShaderCompiler) and [github/hlsl-specs](https://github.com/microsoft/hlsl-specs) was our first dip of our toes into open source. We have the muscle memory now to be able to work in the open and have built great partnerships with hardware vendors, game engine developers, and Vulkan platform contributors. We now know by upstreaming HLSL into Clang/LLVM, we can make the final steps necessary to moving away from proprietary ownership and toward a compiler infrastructure that the entire industry can contribute to and rely on. But a compiler implementation isn't a substitute for a spec thats why C\\C++ have ISO.
 
 I can't stress enough the portability reason. Thats one of the reasons we annouced 2 years ago our long term plans to retire DXIL and move to [SPIR-V for shader model 7](https://devblogs.microsoft.com/directx/directx-adopting-spir-v/) for DirectX.
 
-Standardizing through **Ecma International (**these are the folks behind JavaScript and C#) gives us a neutral ground. It means HLSL isn't just a "Microsoft or Windows  or DirectX thing" anymore; it’s a first-class language for the whole graphics ecosystem. To be fair HLSL hasn't been a DirectX only thing for a while both DXC and Clang-DXC have evolving and in some cases robust support for Vulkan\SPIR-V.
+Standardizing through \*\*Ecma International (\*\*these are the folks behind JavaScript and C#) gives us a neutral ground. It means HLSL isn't just a "Microsoft or Windows or DirectX thing" anymore; it’s a first-class language for the whole graphics ecosystem. To be fair HLSL hasn't been a DirectX only thing for a while both DXC and Clang-DXC have evolving and in some cases robust support for Vulkan\\SPIR-V.
 
 ### The "State of the Union"
 
@@ -45,7 +44,10 @@ It's a huge step for graphics engineering. We're finally treating the shader lan
 
 ### Quick Links & Resources:
 
-- **Official Committee:** [Ecma International TC57](https://ecma-international.org/technical-committees/tc57/)
-- **Development Hub:** [HLSL-TC57 on GitHub](https://github.com/hlsl-tc57)
-- **The Microsoft Announcement:** [Standardizing HLSL (DirectX Blog)](https://devblogs.microsoft.com/directx/standardizing-hlsl/)
-- **Community Deep Dive:** [The State of HLSL (Abolish CRLF)](https://www.abolishcrlf.org/2026/02/10/HLSLState.html)
+*   **Official Committee:** [Ecma International TC57](https://ecma-international.org/technical-committees/tc57/)
+    
+*   **Development Hub:** [HLSL-TC57 on GitHub](https://github.com/hlsl-tc57)
+    
+*   **The Microsoft Announcement:** [Standardizing HLSL (DirectX Blog)](https://devblogs.microsoft.com/directx/standardizing-hlsl/)
+    
+*   **Community Deep Dive:** [The State of HLSL (Abolish CRLF)](https://www.abolishcrlf.org/2026/02/10/HLSLState.html)
