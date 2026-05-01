@@ -5,6 +5,7 @@ seoDescription: "Explore how Andy Weir envisioned Fourier transforms could turn 
 datePublished: 2026-05-01T23:30:36.078Z
 cuid: cmonjq1m300fh1qjc7p495oxr
 slug: the-eigenvectors-of-erid-how-the-fourier-transform-translated-eridian
+cover: https://cdn.hashnode.com/uploads/covers/69f30a5b909e64ad078554d7/4ab5a16c-32fd-4b7f-b201-2dd44f6fc44b.webp
 ogImage: https://cdn.hashnode.com/uploads/og-images/69f30a5b909e64ad078554d7/d6ea7252-cd38-41e3-b349-fa45d6e52f92.webp
 tags: matrix, eigenvectors, fast-fourier-transform, andy-weir
 
