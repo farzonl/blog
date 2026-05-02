@@ -4,7 +4,7 @@ seoTitle: "Dragon Ball Shader Breakdown: GLSL & Raymarching"
 seoDescription: "Explore the GLSL math behind a 4-Star Dragon Ball shader. This breakdown covers 2D SDFs, raymarching, caustics, and complex 3D optical physics."
 datePublished: 2026-05-02T18:55:46.333Z
 cuid: cmoopcgpn00b71qgwaksy1z2p
-slug: the-geometry-of-dragon-ball-a-deep-dive-into-sdfs-and-raymarching
+slug: dragonball-shader
 canonical: https://blog.farzon.org/2026/05/the-geometry-of-dragon-ball-deep-dive.html
 cover: https://cdn.hashnode.com/uploads/covers/69f30a5b909e64ad078554d7/e7f816ae-c4ad-455d-a15a-d3ce628428a4.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/69f30a5b909e64ad078554d7/210aa450-c7c4-4e5e-8f62-cb38be336db4.png
