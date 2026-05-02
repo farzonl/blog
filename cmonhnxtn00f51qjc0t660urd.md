@@ -11,10 +11,7 @@ tags: service, faith, enshittification
 
 ---
 
-> Originally published at [blog.farzon.org](https://blog.farzon.org/2026/04/the-architecture-of-service-reclaiming.html) on Apr 30th.
-
 If you trace the lineage of the personal computing revolution back to its roots in the 1970s and 80s, you won’t find corporate boardrooms or venture capital firms. You’ll find idealists. You’ll find the counterculture hippies of the [*Whole Earth Catalog*](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), [*Homebrew Computer Club*](https://en.wikipedia.org/wiki/Homebrew_Computer_Club) or the hackers of the [*Cult of the Dead Cow*](https://en.wikipedia.org/wiki/Cult_of_the_Dead_Cow) tinkerers who believed that democratizing information would emancipate humanity. For a brief, shining moment, the tech industry felt like the one place on earth where you could actually change the world for the better.
-
 
 Even as the industry corporatized, that idealism lingered. We saw it in Google’s famous foundational mandate: *"Don't be evil."* It was a promise that tech could be immensely profitable without losing its moral compass.
 
@@ -51,3 +48,5 @@ If we truly respected the dignity of our users, we could never justify injecting
 To "clean the house and feed the hungry" in the digital age means building technology that acts as a genuine public good. It means designing software that respects human autonomy, protects privacy, and solves actual problems rather than fabricating new ones to monetize. It means teaching our engineers, our designers, and our algorithms how to serve humanity, rather than exploit it.
 
 Tech *can* still be a place where people go to change the world. The tools we are building today have more potential to uplift humanity than the 1970s idealists could have ever dreamed. But the internet will not be saved by a new feature, more LLMS, or a faster computer. It will only be saved when the people building it decide to roll up their sleeves, look at the people they are building for, and remember what it actually means to serve.
+
+> First published at [blog.farzon.org](https://blog.farzon.org/2026/04/the-architecture-of-service-reclaiming.html) on Apr 30th.
