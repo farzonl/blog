@@ -12,8 +12,6 @@ tags: art, light, math, pixels
 
 ---
 
-> First published 4/10/26 on [blog.farzon.org](https://blog.farzon.org/2026/04/Understanding-the-World-Through-Shaders.html)
-
 Writing code is usually seen as a pursuit of logic. An order of statements designed to solve a problem. But when you dive into the world of [**shaders**](https://en.wikipedia.org/wiki/Shader), code starts to feel less like engineering and more like painting with light. Here, code is the medium through which we translate the abstract beauty of mathematics into the tangible reality of light.
 
 ![A gallery of shaders I made](https://blogger.googleusercontent.com/img/a/AVvXsEgXZNc0xG-W1eK-KzDxdwfWw4_QybIBn6uuVClWnMmcD_eZ8sgDojtuaPkNV4weKYbPSYFPBp_IRCTQr2T2VjuopGWJ2s50oxUSJp18lE1PR8L6f2lSmhlRTxgluj2iO1hz3_C2hIW_LjHppkD9Yr6Eo-Ke2fTugqnNNy-IrTfzgXGmXXqU-2EscHQOJHI align="center")
@@ -47,3 +45,5 @@ See more of these mathematical explorations here:
 *   [*noztol\_shades (instagram)*](https://www.instagram.com/noztol_shades)
     
 *   [noztol (shadertoy)](https://www.shadertoy.com/user/noztol)
+
+> First published 4/10/26 on [blog.farzon.org](https://blog.farzon.org/2026/04/Understanding-the-World-Through-Shaders.html)
