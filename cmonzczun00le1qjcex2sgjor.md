@@ -5,6 +5,7 @@ seoDescription: "Former MS Edge security lead shares how infra constraints led t
 datePublished: 2026-05-02T06:48:21.121Z
 cuid: cmonzczun00le1qjcex2sgjor
 slug: a-retrospective-on-fuzzing-edge-for-android-looking-beyond-the-emulator
+canonical: https://blog.farzon.org/2026/04/a-retrospective-on-fuzzing-edge-for.html
 ogImage: https://cdn.hashnode.com/uploads/og-images/69f30a5b909e64ad078554d7/9087e09f-a2d6-4a10-b6ba-242ab4914bb8.png
 tags: azure, fuzzing, edge-browser, androidx86
 
