@@ -11,8 +11,6 @@ tags: code-coverage, fuzzers, pintool
 
 ---
 
-> Originally published at [blog.farzon.org](https://blog.farzon.org/2026/04/using-pin-as-coverage-diagnostic-tool.html) on Apr 5
-
 When working with libfuzzers, developers often hit a "coverage wall" where the fuzzer fails to reach deep code paths. While standard coverage reports show what was hit, they lack the temporal context to explain *why* a fuzzer is getting stuck. This tool is designed to bridge that gap by providing a detailed analysis of basic block execution using dynamic binary instrumentation.
 
 ## Getting Started: Pintool Setup
@@ -145,3 +143,5 @@ Pintool creates basic blocks based on dynamic execution. In some cases, C++ code
 **Check out the full source code and experiment details on GitHub:**
 
 [https://github.com/farzonl/coverage-experiment](https://github.com/farzonl/coverage-experiment)
+
+> First published at [blog.farzon.org](https://blog.farzon.org/2026/04/using-pin-as-coverage-diagnostic-tool.html) on April 5th
