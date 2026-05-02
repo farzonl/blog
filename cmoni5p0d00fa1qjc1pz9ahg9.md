@@ -12,8 +12,6 @@ tags: computer-vision, gaussian, google-colab, computer-photography, laplacian-p
 
 ---
 
-> originally published at [farzon.org](https://blog.farzon.org/2026/04/seamless-image-merging-guide-to.html) on April 7th
-
 If you have ever tried to create a multi-panel collage by stitching many images together you have likely run into the problem of harsh, visible seams. Slightly better would be some naive alpha blending. Slightly worse are simple cut-and-paste jobs. Both leave unnatural transitions or ghosting artifacts.
 
 To get those buttery-smooth, seamless transitions, we can use a classic computer vision technique: **Laplacian Pyramid Blending**. Below you can see how awesome the results can be.
@@ -77,3 +75,5 @@ By breaking images down into their frequency bands using Gaussian and Laplacian 
 ### Credit Where It's Due: Computational Photography Course At Georgia Tech
 
 I have to mention that a fantastic resource for learning these concepts is **Georgia Tech’s CS 6475: Computational Photography** class. I took this course when I was in grad school and it was one of my favorite courses. If you want a deep dive into the math and theory, I highly recommend checking out these [excellent course notes compiled by Monzer Saleh](https://monzersaleh.github.io/GeorgiaTech/CS6475_ComputationalPhotography.html). The theory above leans on the foundational concepts taught in that course.
+
+> First published at [blog.farzon.org](https://blog.farzon.org/2026/04/seamless-image-merging-guide-to.html) on April 7th
