@@ -12,12 +12,9 @@ tags: vulkan, spir-v, ecma, clang, hlsl, directx, tc-57, llvm-project
 
 ---
 
-> Originally published at [blog.farzon.org](https://blog.farzon.org/2026/04/standardizing-hlsl-bringing-clang-era.html) on April 6th
-
 For a long time, HLSL has lived in a bit of a "trust me, it works" state. It’s the language that powers basically every high-end frame you see on a screen, but for most of its life, it lacked a formal, vendor-neutral definition. Hell even among single vendor the three implementations (FXC, DXC, & Clang-DXC) don't always agree. So what are we going to do about this?
 
 I’m excited to share that I’ve taken on the role of **Vice-Chair for the new Ecma Technical Committee 57 (TC57)**. Our mission? To finally turn HLSL into a formal industry standard.
-
 
 ### Why a Standard? Why Now?
 
@@ -52,3 +49,5 @@ It's a huge step for graphics engineering. We're finally treating the shader lan
 *   **The Microsoft Announcement:** [Standardizing HLSL (DirectX Blog)](https://devblogs.microsoft.com/directx/standardizing-hlsl/)
     
 *   **Community Deep Dive:** [The State of HLSL (Abolish CRLF)](https://www.abolishcrlf.org/2026/02/10/HLSLState.html)
+
+> Originally published at [blog.farzon.org](https://blog.farzon.org/2026/04/standardizing-hlsl-bringing-clang-era.html) on April 6th
