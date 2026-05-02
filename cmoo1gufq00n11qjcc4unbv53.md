@@ -7,6 +7,7 @@ cuid: cmoo1gufq00n11qjcc4unbv53
 slug: from-sidelined-to-streamlined-decoding-my-apple-watch-metrics-part-1
 canonical: https://blog.farzon.org/2026/04/from-sidelined-to-streamlined-decoding.html
 cover: https://cdn.hashnode.com/uploads/covers/69f30a5b909e64ad078554d7/e3448172-ef0b-4a1e-8a38-562e130ec793.webp
+ogImage: https://cdn.hashnode.com/uploads/og-images/69f30a5b909e64ad078554d7/64818b6c-8d9c-472b-a2dc-792847ee646a.png
 tags: apple, neural-networks, multi-layer-perceptron, mlp, vo2max
 
 ---
