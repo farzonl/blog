@@ -1,6 +1,6 @@
 ---
 title: "The Architecture of Service: Reclaiming the Soul of Technology"
-seoTitle: "rom Enshittification to Ethical Tech"
+seoTitle: "Reclaiming the Soul of Technology"
 seoDescription: "A critique of modern tech’s shift to extraction—and a call to rebuild software around dignity, privacy, and real service to users."
 datePublished: 2026-05-01T22:32:58.621Z
 cuid: cmonhnxtn00f51qjc0t660urd
